@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
                     if( (cod.length() > 0) && (nom.length() > 0) ) {
 
-                            Cursor cursor1 = db.rawQuery("SELECT * FROM Usuarios WHERE codigo LIKE '%" + cod + "%'", null);
+                            Cursor cursor1 = db.rawQuery("SELECT * FROM Usuarios WHERE codigo LIKE '%" + cod + "%'", null); //Comando para SQL
 
                             while (cursor1.moveToNext()) {
                                 numero1 = cursor1.getString(0);
