@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
     private Button btnEliminar;
     private Button btnConsultar;
 
-    String numero1;
-    String cod;
-    String nom;
+    String numero1; //Variable para numero
+    String cod;     //Variable para codigo
+    String nom;     //Variable para nombre
 
     private SQLiteDatabase db;
 
